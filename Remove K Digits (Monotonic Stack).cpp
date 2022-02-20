@@ -6,7 +6,7 @@ public:
             return "0";
         
         stack<char> st;
-        int size = int(num.size()); // for ease use
+        int size = int(num.size()); // for ease of use
 
         for(int i = 0; i < size; i++){
             while(not st.empty() and num[i] < st.top() and k){
